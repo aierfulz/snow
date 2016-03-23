@@ -1,0 +1,113 @@
+
+.container{
+    width: 1200px;
+}
+.active-data{
+    font-family: YouYuan;
+    font-weight: 600;
+    font-size: 16px;
+}
+.nav-list>li+li{
+    margin-right: 6px;
+}
+.nav-bar{
+    margin-top: 30px;
+    float:left;
+}
+.con-login{
+    margin-top: 34px;
+}
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img{
+    width: 100%;
+    height: 320px;
+}
+#carousel-example-generic{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    height:300px
+}
+.btn-warning{
+    width: 160px;
+    height: 40px;
+}
+.form-input{
+    display: inline-block;
+    margin-left: 10px;
+    width: 80px;
+}
+.label{
+    padding: 10px 10px;
+    margin-left: 20px;
+    font-size: 16px;
+    font-family: YouYuan;
+}
+.border{
+    border-radius: 12px;
+    border-style: solid;
+    border-width: thin;
+    color: #DDDDDD;
+}
+.list-img{
+    margin-top: 20px;
+    width: 250px;
+    height: 140px;
+
+}
+.list-span-font{
+    font-family: YouYuan;
+    font-size: 34px;
+    font-weight: 900;
+    color: black;
+    margin-top: 40px;
+}
+.col-xs-tag{
+    display: inline-block;
+}
+.col-xs-font{
+    display: inline-block
+}
+.glyphicon-record{
+    font-size: 28px;
+    color:#FF9933;
+}
+.font-p{
+    margin-top: 12px;
+    color: black;
+    line-height:26px;
+    text-indent: 24px;
+}
+.label-success{
+    padding: 10px 10px;
+}
+.mar-span{
+    color:#2aabd2;
+}
+.mar{
+    margin-top: 12px;
+    margin-left:24px;
+}
+.col-xs-offset-7{
+    margin-top: 12px;
+}
+.btn-toolbar-list{
+    margin-top:20px ;
+}
+.foot-a{
+    margin: 12px 6px;
+}
+.foot{
+    display: inline-block;
+    float: left;
+}
+.a-login{
+    font-family: YouYuan;
+    font-weight: 600;
+}
+.glyphicon-user,.glyphicon-pencil{
+    color:#337ab7;
+    display: inline-block;
+    margin-right: 6px;
+}
+.span{
+    color:#337ab7;
+}

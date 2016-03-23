@@ -1,0 +1,19 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.a-login{
+  font-family: YouYuan;
+  font-weight: 600;
+}
+.glyphicon-user,.glyphicon-pencil{
+  color:#337ab7;
+  display: inline-block;
+  margin-right: 6px;
+}
+.span{
+  color:#337ab7;
+}

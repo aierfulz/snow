@@ -1,0 +1,100 @@
+
+.container{
+    width: 1200px;
+}
+.active-data{
+    font-family: YouYuan;
+    font-weight: 600;
+    font-size: 16px;
+}
+.nav-pills>li+li{
+    margin-right: 6px;
+}
+.nav-bar{
+    margin-top: 30px;
+    float: left;
+}
+.con-login{
+    margin-top:34px;
+}
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img{
+    width: 100%;
+    height: 320px;
+}
+#carousel-example-generic{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    height:300px
+}
+.btn-success{
+    width: 160px;
+}
+.font-data{
+    display: inline-block;
+    margin-left: 10px;
+}
+.theam-font,.theam-img{
+    display: inline-block;
+    font-family: YouYuan;
+    font-size: 20px;
+    font-weight: 800;
+}
+.theam-button{
+    margin-top: 12px;
+    margin-left: 70px;
+}
+.btn-warning{
+    width: 140px;
+    height: 50px;
+}
+.input-group{
+    margin-top: 10px;
+}
+.search-span{
+    display: inline-block;
+    margin-left: 2px;
+}
+
+.btn-default1{
+    margin-left: 12px;
+    width: 140px;
+    height: 50px;
+}
+.btn-default1{
+    margin-left: 12px;
+    width: 140px;
+    height: 50px;
+}
+.btn-default2{
+    width: 140px;
+    height: 50px;
+}
+.glyphicon-leaf{
+    color:#5cb85c;
+    font-size: 16px;
+}
+.btn-default .badge{
+    background-color: #5cb85c;
+    display:inline-block;
+    margin-left: 6px;
+}
+
+.foot-a{
+    margin: 12px 6px;
+}
+.foot{
+    display: inline-block;
+    float: left;
+}
+.a-login{
+    font-family: YouYuan;
+    font-weight: 600;
+}
+.glyphicon-user,.glyphicon-pencil{
+    color:#337ab7;
+    display: inline-block;
+    margin-right: 6px;
+}
+.span{
+    color:#337ab7;
+}

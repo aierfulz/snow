@@ -1,0 +1,56 @@
+
+.container{
+    width: 1200px;
+}
+
+.active-data{
+    font-family: YouYuan;
+    font-weight: 600;
+    font-size: 16px;
+}
+.nav-list>li+li{
+    margin-right: 6px;
+}
+.nav-bar{
+    margin-top: 30px;
+    float:left;
+}
+.con-login{
+    margin-top:34px;
+}
+.span{
+    color:#337ab7;
+}
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img{
+    width: 100%;
+    height: 320px;
+}
+#carousel-example-generic{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    height:300px
+}
+.fonts{
+    display: inline-block;
+    margin-left: 40px;
+}
+.btn-warning{
+    width: 200px;
+    height: 40px;
+}
+.foot-a{
+    margin: 12px 6px;
+}
+.foot{
+    display: inline-block;
+    float: left;
+}
+.a-login{
+    font-family: YouYuan;
+    font-weight: 600;
+}
+.glyphicon-user,.glyphicon-pencil{
+    color:#337ab7;
+    display: inline-block;
+    margin-right: 6px;
+}

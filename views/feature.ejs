@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>|新闻</title>
+  <link href="/stylesheets/bootstrap.min.css" rel="stylesheet">
+  <link href="/stylesheets/news/feature.css" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="/images/theam.png" media="screen" />
+  <script type="text/javascript" src="/javascripts/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="/javascripts/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-5">
+      <img class="img-nav" src="/images/logo.png">
+    </div>
+    <div class="col-xs-7">
+      <div class="nav-bar">
+        <ul class="nav nav-pills nav-list">
+          <li role="presentation" class="active-data"><a href="/">首页</a></li>
+          <li role="presentation" class="active active-data"><a href="news">新闻</a></li>
+          <li role="presentation" class="data active-data"><a href="data">数据</a></li>
+          <li role="presentation" class="active-data"><a href="snow">积雪观测</a></li>
+          <li role="presentation" class="active-data"><a href="picture">相册</a></li>
+          <li role="presentation" class="active-data"><a href="about-ours">关于我们</a></li>
+        </ul>
+      </div>
+      <div class="con-login">
+        <button type="button" class="btn btn-default" aria-label="Left Align">
+          <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+          <a class="a-login" href="login">登录</a>
+        </button>
+        <button  type="button" class="btn btn-default" aria-label="Left Align">
+          <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+          <a class="a-login" href="register">注册</a>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="/images/2.jpg" alt="...">
+            <div class="carousel-caption">
+
+            </div>
+          </div>
+          <div class="item">
+            <img src="/images/1.jpg" alt="...">
+            <div class="carousel-caption">
+
+            </div>
+          </div>
+          <div class="item">
+            <img src="/images/3.jpg" alt="...">
+            <div class="carousel-caption">
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <hr>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="new-nav border">
+        <div class="col-xs-11 nav-news-list">
+          <ul class="nav nav-pills nav-stacked">
+            <li role="presentation" class="active"><a href="news">特色新闻<span class="glyphicon glyphicon-chevron-right a-span"></span></a></li>
+            <li role="presentation" class="borders"><a href="#" class="a-news">数据中心新闻<span class="glyphicon glyphicon-chevron-right a-span"></span></a></li>
+            <li role="presentation" class="borders"><a href="#" class="a-news">科学数据动态<span class="glyphicon glyphicon-chevron-right a-span"></span></a></li>
+            <li role="presentation" class="borders"><a href="#" class="a-news">中心数据动态<span class="glyphicon glyphicon-chevron-right a-span"></span></a></li>
+            <li role="presentation" class="borders"><a href="#" class="a-news">重要新闻<span class="glyphicon glyphicon-chevron-right a-span"></span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="news-page border">
+        <div class="col-xs-1 nav-img">
+        </div>
+        <div class="col-xs-10">
+          <div class="nav-tag-news">
+            <span class="nav-tag-news-span"><%=data[0].title%></span>
+          </div>
+        </div>
+        <div class="col-xs-offset-2 col-xs-10 nav-time-from">
+          <span class="span-font">发布时间:</span><span class="span-time">2016-01-19</span>
+          <span class="span-font">来源:</span><span class="span-time">中国科学院寒区寒区环境与工程研究所遥感室</span>
+        </div>
+        <div class="col-xs-12">
+          <hr>
+        </div>
+        <div  class="news">
+          <p class="p-font"><%=data[0].page_one%></p>
+          <img class="p-img img-rounded" src="<%=data[0].img_path_one%>">
+          <p class="p-font">
+            <%=data[0].page_two%>
+          </p>
+          <img class="p-img img-rounded" src="<%=data[0].img_path_two%>">
+          <p class="p-font">
+            <%=data[0].page_three%>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <hr>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-offset-3 col-xs-7">
+      <div class="foot">
+        <img src="/images/snowman.png">
+      </div>
+      <div class="foot">
+        <div class="foot-a">
+          <span class="span">©中国科学院寒区旱区环境与工程研究所遥感室2016-2017</span>
+        </div>
+        <div class="foot-a">
+          <span class="span"><i class="glyphicon glyphicon-envelope"></i>联系我们</span>
+          <span class="span">|邮箱|</span> <a class="" href="mailto:chetao@lzb.ac.cn">chetao@lzb.ac.cn</a>
+          <span class="span">|</span><a class="" href="mailto:haoxh@lzb.ac.cn">haoxh@lzb.ac.cn</a>
+          <span class="span">|</span><a class="" href="mailto:yaochao94@126.com">yaochao94@126.com</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

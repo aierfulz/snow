@@ -1,0 +1,133 @@
+.container{
+    width: 1200px;
+}
+
+.active-data{
+    font-family: YouYuan;
+    font-weight: 600;
+    font-size: 16px;
+}
+.nav-list>li+li{
+    margin-right: 6px;
+}
+.nav-bar{
+    margin-top: 30px;
+    float:left;
+}
+.con-login{
+    margin-top:34px;
+}
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img{
+    width: 100%;
+    height: 320px;
+}
+#carousel-example-generic{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    height:300px
+}
+.border{
+    border-radius: 12px;
+    border-color: #EEEEEE;
+    border-width: thin;
+    border-style: solid;
+    margin-left: 2px;
+}
+.new-nav{
+    width:340px;
+    height: 190px;
+    display: inline-block;
+}
+.nav-news-list{
+    margin-left: 12px;
+    margin-top: 20px;
+    color: #2aabd2;
+
+}
+.nav-stacked>li+li{
+    margin-top: 8px;
+}
+.image{
+    margin-top: 12px;
+}
+.img{
+    width: 284px;
+    height: 200px;
+}
+.news-tag{
+    margin-top: 10px;
+}
+.tags{
+    display: inline-block;
+    float: right;
+}
+.new-line{
+    margin-top: 2px;
+}
+.news-page{
+    width:760px;
+    display: inline-block;
+    float: right;
+}
+.name{
+    font-size: 12px;
+    color: #2aabd2;;
+}
+.describe{
+    margin-bottom: 12px;
+}
+.describes{
+    margin-top: 8px;
+}
+.instrument{
+    margin-top: 12px;
+    display: inline-block;
+    float: right;
+}
+.bottom{
+    margin-bottom: 20px;
+}
+.box{
+    border-radius: 12px;
+    border-color: #DDDDDD;
+    border-width: thin;
+    border-style: solid;
+}
+.borders{
+    border-radius: 4px;
+    border-color: #DDDDDD;
+    border-width: thin;
+    border-style: solid;
+}
+.left{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.names{
+    color:black;
+    font-size: 12px;
+}
+.a-span{
+    display: inline-block;
+    float: right;
+}
+
+.foot-a{
+    margin: 12px 6px;
+}
+.foot{
+    display: inline-block;
+    float: left;
+}
+.a-login{
+    font-family: YouYuan;
+    font-weight: 600;
+}
+.glyphicon-user,.glyphicon-pencil{
+    color:#337ab7;
+    display: inline-block;
+    margin-right: 6px;
+}
+.span{
+    color:#337ab7;
+}

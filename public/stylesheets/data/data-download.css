@@ -1,0 +1,188 @@
+
+.container{
+    width: 1200px;
+}
+
+.active-data{
+    font-family: YouYuan;
+    font-weight: 600;
+    font-size: 16px;
+}
+.nav-list>li+li{
+    margin-right: 6px;
+}
+.nav-bar{
+    margin-top: 30px;
+    float:left;
+}
+.con-login{
+    margin-top: 34px;
+}
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img{
+    width: 100%;
+    height: 320px;
+}
+#carousel-example-generic{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    height:300px
+}
+.glyphicon-edit,.glyphicon-share,.glyphicon-log-out,.glyphicon-log-in,.glyphicon-globe,.glyphicon-phone,.glyphicon-send,.glyphicon-check{
+    font-size: 18px;
+    /*color:#33CC00;*/
+}
+.glyphicon-folder-open{
+    font-size: 16px;
+    display: inline-block;
+    margin-right: 6px;
+}
+.glyphicon-record{
+    font-size: 28px;
+}
+
+.img-left{
+    width: 260px;
+    height:180px;
+    display: inline-block;
+    float: left;
+    margin-right:10px;
+}
+.span-tag-news{
+    font-family: YouYuan;
+    font-size: 20px;
+    font-weight: 900;
+}
+.left-tag{
+    margin-bottom: 12px;
+}
+.span-tag{
+    font-family: YouYuan;
+    font-size: 28px;
+    font-weight: 900;
+}
+.text-p{
+    text-indent: 28px;
+}
+.label{
+    padding: 12px 12px;
+}
+.user-tags{
+    margin-top: 18px;
+}
+.user-tag{
+    font-family: YouYuan;
+    font-size: 18px;
+}
+.p-user-p{
+    margin-top: 20px;
+    text-indent: 28px;
+}
+.p-user{
+    margin-top: 12px;
+    text-indent: 28px;
+}
+.tag{
+    margin-bottom: 12px;
+}
+.glyphicon-tags{
+   font-size: 18px;
+    margin-left: 20px;
+    margin-bottom: 12px;
+}
+.tag-img{
+    margin-right: 12px;
+}
+.right-tag{
+    margin-bottom: 12px;
+}
+.panels{
+    width: 360px;
+    height: 240px;
+    border-width: thin;
+    border-style: solid;
+    border-radius: 12px;
+    color: #EEEEEE;
+}
+.label-padding{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.label-i{
+    display: inline-block;
+    margin-left: 12px;
+    margin-right: 12px;
+    font-style: normal;
+}
+.place{
+    width: 360px;
+    height: 310px;
+    border-width: thin;
+    border-style: solid;
+    border-radius: 12px;
+    color: #EEEEEE;
+}
+.data-info{
+    width: 360px;
+    height: 160px;
+    border-width: thin;
+    border-style: solid;
+    border-radius: 12px;
+    color: #EEEEEE;
+}
+.info{
+    font-family: YouYuan;
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+.label-span{
+    display: inline-block;
+    margin-top:40px;
+}
+.info-name{
+    width: 340px;
+    margin-top: 16px;
+    margin-left: 10px;
+}
+.label-io{
+    margin-left: 20px;
+    font-style: normal;
+}
+.dowland{
+    display: inline-block;
+    margin-top: 26px;
+    margin-left: 40px;
+}
+.alert-dangers{
+    margin-top: 20px;
+    width: 320px;
+    margin-left: 20px;
+}
+.btn-success{
+    margin-top: 12px;
+    width: 360px;
+    height: 50px;
+}
+.foot-a{
+    margin: 12px 6px;
+}
+.foot{
+    display: inline-block;
+    float: left;
+}
+.map{
+    width: 340px;
+    height: 290px;
+    margin: 10px 10px;
+}
+.a-login{
+    font-family: YouYuan;
+    font-weight: 600;
+}
+.glyphicon-user,.glyphicon-pencil{
+    color:#337ab7;
+    display: inline-block;
+    margin-right: 6px;
+}
+.span{
+    color:#337ab7;
+}

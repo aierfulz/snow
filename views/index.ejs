@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="renderer" content="webkit">
+  <title>|积雪科学数据共享网</title>
+  <link href="/stylesheets/bootstrap.min.css" rel="stylesheet">
+  <link href="/stylesheets/index.css" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="/images/theam.png" media="screen" />
+  <script type="text/javascript" src="/javascripts/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="/javascripts/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-5">
+      <img class="img-nav" src="/images/logo.png">
+    </div>
+    <div class="col-xs-7">
+      <div class="login">
+        <span class="user" id="user"><i><img src="/images/pencil_user.png"></i><%=User%></span>
+        <a href="#">English</a>
+      </div>
+      <div class="nav-bar">
+        <ul class="nav nav-pills">
+          <li role="presentation" class="active active-data"><a href="/">首页</a></li>
+          <li role="presentation" class="active-data"><a href="news">新闻</a></li>
+          <li role="presentation" class="active-data"><a href="data">数据</a></li>
+          <li role="presentation" class="active-data"><a href="snow">积雪观测</a></li>
+          <li role="presentation" class="active-data"><a href="picture">相册</a></li>
+          <li role="presentation" class="active-data"><a href="about-ours">关于我们</a></li>
+        </ul>
+      </div>
+      <div class="con-login">
+        <button id="login" type="button" class="btn btn-default" aria-label="Left Align">
+          <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+          <a class="a-login" href="login">登录</a>
+        </button>
+        <button id="register" type="button" class="btn btn-default" aria-label="Left Align">
+          <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+          <a class="a-login" href="register">注册</a>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="/images/2.jpg" alt="...">
+            <div class="carousel-caption">
+
+            </div>
+          </div>
+          <div class="item">
+            <img src="/images/1.jpg" alt="...">
+            <div class="carousel-caption">
+
+            </div>
+          </div>
+          <div class="item">
+            <img src="/images/3.jpg" alt="...">
+            <div class="carousel-caption">
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-4">
+      <div class="news border">
+        <div class="new-tag-mar">
+                   <span class="new-tag">
+                       <i class="glyphicon glyphicon-globe"></i>
+                       新闻动态
+                   </span>
+        </div>
+        <div class="new-a">
+          <div class="">
+            <a class="glyphicon glyphicon-eye-open"></a>
+            <a class="" name="title" href="/feature/?title=第一次积雪遥感协同观测系列试验">第一次积雪遥感协同观测系列试验</a>
+          </div>
+          <div class="a-style">
+            <a class="glyphicon glyphicon-eye-open"></a>
+            <a class="" name="title" href="/feature/?title=第一届积雪遥感学术研讨会">第一届积雪遥感学术研讨会</a>
+          </div>
+          <div class="a-style">
+            <a class="glyphicon glyphicon-eye-open"></a>
+            <a class="" name="title" href="/feature/?title=2013年第三次积雪观测系列试COSS-3">2013年第三次积雪观测系列试COSS-3</a>
+          </div>
+          <div class="a-style">
+            <a class="glyphicon glyphicon-eye-open"></a>
+            <a class="" name="title" href="/feature/?title=第五次积雪遥感协同观测系列试验COSS-5开展">第五次积雪遥感协同观测系列试验COSS-5开展</a>
+          </div>
+          <div class="a-style">
+            <a class="glyphicon glyphicon-eye-open"></a>
+            <a class="a-style" name="title" href="/feature/?title=中科院寒旱所-阿勒泰气象局积雪联合观测研究基地揭牌">中科院寒旱所-阿勒泰气象局积雪联合观测研...</a>
+          </div>
+          <div class="a-style">
+            <a class="glyphicon glyphicon-eye-open"></a>
+            <a class="" name="title" href="/feature/?title=青海祁连县八宝河流域无线传感网络架设工程">青海祁连县八宝河流域无线传感网络架设于2013...</a>
+          </div>
+          <div class="a-style">
+            <a class="glyphicon glyphicon-eye-open"></a>
+            <a class="" name="title" href="/feature/?title=第三次积雪遥感会议通知">第三届积雪遥感学术研讨会将于2013年七月召开</a>
+          </div>
+          <div class="">
+            <a class="more" href="news">更多>></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-8">
+      <div class="new-data border">
+        <div class="new-tag-mar">
+                   <span class="new-tag">
+                       <i class="glyphicon glyphicon-certificate"></i>
+                      最新研究成果
+                   </span>
+        </div>
+        <div class="col-xs-3 data-page-time">
+          [2014-04-17 09:57:53]
+        </div>
+        <div class="col-xs-8">
+          <a class="glyphicon glyphicon-leaf"></a>
+          <a href="" class="">青海三江源自然保护区2010年水资源评价报告</a>
+        </div>
+        <div class="col-xs-3 data-page-time">
+          [2014-04-17 09:57:53]
+        </div>
+        <div class="col-xs-8">
+          <a class="glyphicon glyphicon-leaf"></a>
+          <a href="" class="">青海三江源自然保护区2010年水资源评价报告</a>
+        </div>
+        <div class="col-xs-3 data-page-time">
+          [2014-04-17 09:57:53]
+        </div>
+        <div class="col-xs-8">
+          <a class="glyphicon glyphicon-leaf"></a>
+          <a href="" class="">青海三江源自然保护区2010年水资源评价报告</a>
+        </div>
+        <div class="col-xs-3 data-page-time">
+          [2014-04-17 09:57:53]
+        </div>
+        <div class="col-xs-8">
+          <a class="glyphicon glyphicon-leaf"></a>
+          <a href="" class="">青海三江源自然保护区2010年水资源评价报告</a>
+        </div>
+        <div class="col-xs-3 data-page-time">
+          [2014-04-17 09:57:53]
+        </div>
+        <div class="col-xs-8">
+          <a class="glyphicon glyphicon-leaf"></a>
+          <a href="" class="">青海三江源自然保护区2010年水资源评价报告</a>
+        </div>
+        <div class="col-xs-3 data-page-time">
+          [2014-04-17 09:57:53]
+        </div>
+        <div class="col-xs-8">
+          <a class="glyphicon glyphicon-leaf"></a>
+          <a href="" class="">青海三江源自然保护区2010年水资源评价报告</a>
+        </div>
+        <div class="col-xs-3 data-page-time">
+          [2014-04-17 09:57:53]
+        </div>
+        <div class="col-xs-8">
+          <a class="glyphicon glyphicon-leaf"></a>
+          <a href="" class="">青海三江源自然保护区2010年水资源评价报告</a>
+        </div>
+        <div class="col-xs-3 data-page-time">
+          [2014-04-17 09:57:53]
+        </div>
+        <div class="col-xs-8">
+          <a class="glyphicon glyphicon-leaf"></a>
+          <a href="" class="">青海三江源自然保护区2010年水资源评价报告</a>
+        </div>
+        <div class="col-xs-3 data-page-time">
+          [2014-04-17 09:57:53]
+        </div>
+        <div class="col-xs-8">
+          <a class="glyphicon glyphicon-leaf"></a>
+          <a href="" class="">青海三江源自然保护区2010年水资源评价报告</a>
+          <div class="">
+            <a class="more" href="#">更多>></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-4">
+      <div class="x-data border">
+        <div class="new-tag-mar">
+                   <span class="new-tag">
+                       <i class="glyphicon glyphicon-tags"></i>
+                       新疆积雪数据集
+                   </span>
+        </div>
+        <div class="new-a">
+          <div class="">
+            <a class="glyphicon glyphicon-hand-right"></a>
+            <a class="" href="#">环保部卫星感应用基地2015...</a>
+          </div>
+          <div class="">
+            <a class="glyphicon glyphicon-hand-right"></a>
+            <a class="" href="#">环保部卫星环境应用中2015...</a>
+          </div>
+          <div class="">
+            <a class="glyphicon glyphicon-hand-right"></a>
+            <a class="" href="#">环保部卫星环境应2015...</a>
+          </div>
+          <div class="">
+            <a class="glyphicon glyphicon-hand-right"></a>
+            <a class="" href="#">环保部卫星环境应用中用基地2015...</a>
+          </div>
+          <div class="">
+            <a class="glyphicon glyphicon-hand-right"></a>
+            <a class="" href="#">环保部卫星环境应用地2015...</a>
+          </div>
+          <div class="">
+            <a class="glyphicon glyphicon-hand-right"></a>
+            <a class="" href="#">环保部卫星环境应用中...</a>
+          </div>
+          <div class="">
+            <a class="glyphicon glyphicon-hand-right"></a>
+            <a class="" href="#">环保部卫星环境应用中心青...</a>
+          </div>
+          <div class="">
+            <a class="glyphicon glyphicon-hand-right"></a>
+            <a class="" href="#">环保部卫星环境应用中心2015...</a>
+          </div>
+          <div class="">
+            <a class="glyphicon glyphicon-hand-right"></a>
+            <a class="" href="#">环保部卫星环境应用中心青...</a>
+          </div>
+          <div class="">
+            <a class="more" href="data-list">更多>></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-4">
+      <div class="x-data border">
+        <div class="new-tag-mar">
+                   <span class="new-tag">
+                       <i class="glyphicon glyphicon-tags"></i>
+                       青藏高原积雪数据集
+                   </span>
+        </div>
+        <div class="new-a">
+          <div class="">
+            <a class="glyphicon glyphicon-hand-right"></a>
+            <a class="" href="#">环保部卫星感应用基地2015...</a>
+          </div>
+          <div class="">
+            <a class="glyphicon glyphicon-hand-right"></a>
+            <a class="" href="#">环保部卫星环境应用中2015...</a>
+          </div>
+          <div class="">
+            <a class="glyphicon glyphicon-hand-right"></a>
+            <a class="" href="#">环保部卫星环境应2015...</a>
+          </div>
+          <div class="">
+            <a class="glyphicon glyphicon-hand-right"></a>
+            <a class="" href="#">环保部卫星环境应用中用基地2015...</a>
+          </div>
+          <div class="">
+            <a class="glyphicon glyphicon-hand-right"></a>
+            <a class="" href="#">环保部卫星环境应用地2015...</a>
+          </div>
+          <div class="">
+            <a class="glyphicon glyphicon-hand-right"></a>
+            <a class="" href="#">环保部卫星环境应用中...</a>
+          </div>
+          <div class="">
+            <a class="glyphicon glyphicon-hand-right"></a>
+            <a class="" href="#">环保部卫星环境应用中心青...</a>
+          </div>
+          <div class="">
+            <a class="glyphicon glyphicon-hand-right"></a>
+            <a class="" href="#">环保部卫星环境应用中心2015...</a>
+          </div>
+          <div class="">
+            <a class="glyphicon glyphicon-hand-right"></a>
+            <a class="" href="#">环保部卫星环境应用中心青...</a>
+          </div>
+          <div class="">
+            <a class="more" href="data-list">更多>></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-4">
+      <div class="x-data border">
+        <div class="new-tag-mar">
+                   <span class="new-tag">
+                       <i class="glyphicon glyphicon-tags"></i>
+                       其它数据集
+                   </span>
+        </div>
+        <div class="new-a">
+          <div class="">
+            <a class="glyphicon glyphicon-hand-right"></a>
+            <a class="a-font" href="#">环保部卫星感应用基地2015...</a>
+          </div>
+          <div class="">
+            <a class="glyphicon glyphicon-hand-right"></a>
+            <a class="a-font" href="#">环保部卫星环境应用中2015...</a>
+          </div>
+          <div class="">
+            <a class="glyphicon glyphicon-hand-right"></a>
+            <a class="a-font" href="#">环保部卫星环境应2015...</a>
+          </div>
+          <div class="">
+            <a class="glyphicon glyphicon-hand-right"></a>
+            <a class="a-font" href="#">环保部卫星环境应用中用基地2015...</a>
+          </div>
+          <div class="">
+            <a class="glyphicon glyphicon-hand-right"></a>
+            <a class="a-font" href="#">环保部卫星环境应用地2015...</a>
+          </div>
+          <div class="">
+            <a class="glyphicon glyphicon-hand-right"></a>
+            <a class="a-font" href="#">环保部卫星环境应用中...</a>
+          </div>
+          <div class="">
+            <a class="glyphicon glyphicon-hand-right"></a>
+            <a class="a-font" href="#">环保部卫星环境应用中心青...</a>
+          </div>
+          <div class="">
+            <a class="glyphicon glyphicon-hand-right"></a>
+            <a class="a-font" href="#">环保部卫星环境应用中心2015...</a>
+          </div>
+          <div class="">
+            <a class="glyphicon glyphicon-hand-right"></a>
+            <a class="a-font" href="#">环保部卫星环境应用中心青...</a>
+          </div>
+          <div class="">
+            <a class="more a-font" href="data-list">更多>></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="new-tag-mar">
+                   <span class="new-tag">
+                       <i class="glyphicon glyphicon-new-window"></i>
+                      站内链接
+                   </span>
+      </div>
+    </div>
+    <div class="col-xs-3">
+      <span><img src="/images/log/westdc-logo-1.png" class="logo_img"></span><a href="http://westdc.westgis.ac.cn/"target="_blank">寒区旱区科学数据中心</a>
+    </div>
+    <div class="col-xs-3">
+      <span><img src="/images/log/logo.png" class="logo_img"></span><a href="http://tibetsnow.org/" target="_blank">青藏高原积雪观测</a>
+    </div>
+    <div class="col-xs-3">
+      <span><img src="/images/log/01_logo_en.gif" class="logo_img"></span><a href="http://www.globsnow.info/" target="_blank">Globe snow</a>
+    </div>
+    <div class="col-xs-3">
+      <span><img src="/images/log/logo_nsidc_46x36.svg" class="logo_img"></span><a href="http://nsidc.org/charis/" target="_blank">NSIDC</a>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <hr>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-offset-3 col-xs-7">
+      <div class="foot">
+        <img src="/images/snowman.png">
+      </div>
+      <div class="foot">
+        <div class="foot-a">
+          <span class="span">©中国科学院寒区旱区环境与工程研究所遥感室2016-2017</span>
+        </div>
+        <div class="foot-a">
+          <span class="span"><i class="glyphicon glyphicon-envelope"></i>联系我们</span>
+          <span class="span">|邮箱|</span> <a class="" href="mailto:chetao@lzb.ac.cn">chetao@lzb.ac.cn</a>
+          <span class="span">|</span><a class="" href="mailto:haoxh@lzb.ac.cn">haoxh@lzb.ac.cn</a>
+          <span class="span">|</span><a class="" href="mailto:yaochao94@126.com">yaochao94@126.com</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

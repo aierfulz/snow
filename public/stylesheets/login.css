@@ -1,0 +1,41 @@
+
+.container{
+    width: 1200px;
+}
+.image{
+    margin-top: 60px;
+}
+.login{
+    margin-top: 100px;
+    height: 420px;
+}
+
+.box{
+    border-radius: 12px;
+    box-shadow: 0.3em 0.4em 0.3em 0.4em #EEEEEE;
+}
+.user{
+    font-family: kaiti;
+    font-size: 16px;
+    font-weight: 800;
+    font-style: normal;
+}
+.button{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.btn-len{
+    width: 360px;
+    height: 50px;
+}
+.input{
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.foot{
+    margin-top: 40px;
+    margin-left: 160px;
+}
+.f-a{
+    margin-left: 60px;
+}

@@ -1,0 +1,157 @@
+
+
+
+.container{
+    width: 1200px;
+}
+
+.active-data{
+    font-family: YouYuan;
+    font-weight: 600;
+    font-size: 16px;
+}
+.nav-list>li+li{
+    margin-right: 6px;
+}
+.nav-bar{
+    margin-top: 30px;
+    float:left;
+}
+.con-login{
+    margin-top:34px;
+}
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img{
+    width: 100%;
+    height: 320px;
+}
+#carousel-example-generic{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    height:300px
+}
+.border{
+    border-radius: 12px;
+    border-color: #EEEEEE;
+    border-width: thin;
+    border-style: solid;
+}
+.new-nav{
+    width:340px;
+    height: 270px;
+    display: inline-block;
+}
+.nav-news-list{
+    margin-left: 12px;
+    margin-top: 20px;
+    color: #2aabd2;
+
+}
+.nav-stacked>li+li{
+    margin-top: 4px;
+}
+
+.news-tag{
+    margin-top: 10px;
+}
+.a-span-news{
+    display: inline-block;
+    float: right;
+}
+.tag-news{
+    margin-left: 8px;
+    font-family: YouYuan;
+    font-size: 28px;
+    font-weight: 900;
+}
+.btn-toolbar{
+    margin-top: 20px;
+}
+.tag-news{
+    display: inline-block;
+    margin-top: 18px;
+
+}
+.font{
+    padding: 6px 48px;
+}
+.name-a{
+    font-family: YouYuan;
+    font-weight: 800;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 6px;
+    margin-bottom: 20px;
+}
+.name-a-finally{
+    font-family: YouYuan;
+    font-weight: 800;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 6px;
+}
+.tag{
+    border-radius: 2px;
+    height: 36px;
+    margin: 20px 20px 0px;
+    border-color: #DDDDDD;
+    border-width: thin;
+    border-style: solid;
+}
+.new-line{
+    margin-top: 2px;
+}
+.news-page{
+    width:760px;
+    display: inline-block;
+    float: right;
+}
+.img{
+    margin-top: 18px;
+    margin-left: 20px;
+}
+.borders{
+    border-radius: 4px;
+    border-color: #DDDDDD;
+    border-width: thin;
+    border-style: solid;
+}
+.menutitle{
+    margin-top: 12px;
+    cursor:pointer;
+    margin-bottom: 5px;
+    color:#2aabd2;
+    padding:8px;
+    font-weight:bold;
+    font-family: YouYuan;
+
+}
+.submenu{
+    /*margin-bottom: 0.5em;*/
+    padding:10px 20px;
+    text-indent: 16px;
+    line-height: 26px;
+}
+.a-span{
+    display: inline-block;
+    float: right;
+}
+
+.foot-a{
+    margin: 12px 6px;
+}
+.foot{
+    display: inline-block;
+    float: left;
+}
+.a-login{
+    font-family: YouYuan;
+    font-weight: 600;
+}
+.glyphicon-user,.glyphicon-pencil{
+    color:#2aabd2;
+    display: inline-block;
+    margin-right: 6px;
+}
+.span{
+    color:#337ab7;
+}

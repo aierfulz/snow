@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>|研究人员</title>
+  <link href="/stylesheets/bootstrap.min.css" rel="stylesheet">
+  <link href="/stylesheets/about-ours/member.css" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="/images/theam.png" media="screen" />
+  <script type="text/javascript" src="/javascripts/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="/javascripts/bootstrap.min.js"></script>
+  <script type="text/javascript">
+    if (document.getElementById){ //DynamicDrive.com change
+      document.write('<style type="text/css">\n')
+      document.write('.submenu{display: none;}\n')
+      document.write('</style>\n')
+    }
+    function SwitchMenu(obj){
+      if(document.getElementById){
+        var el = document.getElementById(obj);
+        var ar = document.getElementById("masterdiv").getElementsByTagName("span"); //DynamicDrive.com change
+        if(el.style.display != "block"){ //DynamicDrive.com change
+          for (var i=0; i<ar.length; i++){
+            if (ar[i].className=="submenu") //DynamicDrive.com change
+              ar[i].style.display = "none";
+          }
+          el.style.display = "block";
+        }else{
+          el.style.display = "none";
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-5">
+      <img class="img-nav" src="/images/logo.png">
+    </div>
+    <div class="col-xs-7">
+      <div class="nav-bar">
+        <ul class="nav nav-pills nav-list">
+          <li role="presentation" class="active-data"><a href="/">首页</a></li>
+          <li role="presentation" class="active-data"><a href="news">新闻</a></li>
+          <li role="presentation" class="data active-data"><a href="data">数据</a></li>
+          <li role="presentation" class="active-data"><a href="snow">积雪观测</a></li>
+          <li role="presentation" class="active-data"><a href="picture">相册</a></li>
+          <li role="presentation" class="active active-data"><a href="about-ours">关于我们</a></li>
+        </ul>
+      </div>
+      <div class="con-login">
+        <button type="button" class="btn btn-default" aria-label="Left Align">
+          <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+          <a class="a-login" href="login">登录</a>
+        </button>
+        <button  type="button" class="btn btn-default" aria-label="Left Align">
+          <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+          <a class="a-login" href="register">注册</a>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="/images/2.jpg" alt="...">
+            <div class="carousel-caption">
+
+            </div>
+          </div>
+          <div class="item">
+            <img src="/images/1.jpg" alt="...">
+            <div class="carousel-caption">
+
+            </div>
+          </div>
+          <div class="item">
+            <img src="/images/3.jpg" alt="...">
+            <div class="carousel-caption">
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <hr>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="new-nav border">
+        <div class="col-xs-11 nav-news-list">
+          <ul class="nav nav-pills nav-stacked">
+            <li role="presentation" class="borders"><a href="about-ours">平台简介<span class="glyphicon glyphicon-chevron-right a-span"></span></a></li>
+            <li role="presentation" class="active"><a href="member" class="a-news">研究人员<span class="glyphicon glyphicon-chevron-right a-span"></span></a></li>
+            <li role="presentation" class="borders"><a href="data-from" class="a-news">数据来源<span class="glyphicon glyphicon-chevron-right a-span"></span></a></li>
+            <li role="presentation" class="borders"><a href="items" class="a-news">使用条款<span class="glyphicon glyphicon-chevron-right a-span"></span></a></li>
+            <li role="presentation" class="borders"><a href="ours" class="a-news">联系我们<span class="glyphicon glyphicon-chevron-right a-span"></span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="news-page border" id="masterdiv">
+        <div >
+          <div class="col-xs-1 ">
+            <img src="/images/user-info.png" class="img">
+          </div>
+          <div class="col-xs-11 menutitle " onclick="SwitchMenu('sub1')">
+            车涛
+          </div>
+                    <span class="submenu" id="sub1">
+                        <p>车涛，男，博士，研究员，从事冰冻圈遥感研究</p>
+                        <p>学习经历:</p>
+                        <p>1996年－2000年，西北大学城市与资源学系，本科/学士，导师：汤国安 教授
+                          2000年－2006年，中国科学院寒区旱区环境与工程研究所，研究生/博士，导师：李新 研究员
+                        </p>
+                        <p>工作经历:</p>
+                        <p>2004年－2009年，中国科学院寒区旱区环境与工程研究所，助理研究员
+                          2009年－2013年，中国科学院寒区旱区环境与工程研究所，副研究员
+                          2014年- ，中国科学院寒区旱区环境与工程研究所，研究员
+                        </p>
+                        <p>在研项目:</p>
+                        <p>国家自然科学基金面上项目“非均匀条件下积雪微波辐射特性观测、理解与模拟”，2010-2012
+                          国家自然科学基金面上项目“积雪面积与雪水当量时空关系及其在寒区水文中的同化应用”，2013-2016
+                          中国科学院西部行动计划（三期）项目第3课题“黑河流域上游遥感水文试验”，2012-2015
+                        </p>
+                        <p>发表论文:</p>
+                        <p>车涛, 李新 晋锐, 2009. 利用被动微波遥感低频亮温数据监测青海湖封冻与解冻期. 科学通报,787-791.
+                          王建, 车涛, 张立新, 晋锐, 王维真, 李新, 梁继, 郝小华, 李弘毅, 吴月茹 胡泽勇, 2009. 黑河流域上游寒区水文遥感-地面同步观测试验. 冰川冻土,189-197.
+                          吴月茹, 王维真, 晋锐, 王建 车涛, 2009. TDR测定土壤含水量的标定研究. 冰川冻土,262-267.
+                          王维真, 吴月茹, 晋锐, 王建 车涛, 2009. 冻融期土壤水盐变化特征分析——以黑河上游祁连县阿柔草场为例. 冰川冻土,268-274.
+                          郝晓华, 王建, 车涛, 张璞, 梁继, 李弘毅, 李哲, 白云洁 白艳芬, 2009. 祁连山区冰沟流域积雪分布特征及其属性观测分析. 冰川冻土,284-292.
+                          谭俊磊, 马明国, 车涛 白云洁, 2009. 基于不同郁闭度的青海云杉冠层截留特征研究. 地球科学进展,825-833.
+                          马明国, 刘强, 阎广建, 陈尔学, 肖青, 苏培玺, 胡泽勇, 李新, 牛铮, 王维真, 钱金波, 宋怡, 丁松爽, 辛晓洲, 任华忠, 黄春林, 晋锐, 车涛 楚荣忠, 2009. 黑河流域遥感—地面观测同步试验:森林水文和中游干旱区水文试验. 地球科学进展,681-695.
+                          白云洁, 卢玲, 李新 车涛, 2009. 积雪微波辐射亮温对积雪参数的敏感性分析——以多层积雪微波辐射模型为例. 遥感技术与应用,622-630.
+                          戴礼云 车涛, 2009. SMMR与SSM/I被动微波亮度温度数据交叉定标. 遥感技术与应用,617-621.</p>
+                    </span>
+        </div>
+        <div>
+          <div class="col-xs-1">
+            <img src="/images/user-info.png" class="img" >
+          </div>
+          <div class="col-xs-11 menutitle" onclick="SwitchMenu('sub2')">
+            郝晓华
+          </div>
+          <span class="submenu"id="sub2">Phasellus mattis tincidunt nibh.</span>
+        </div>
+        <div>
+          <div class="col-xs-1">
+            <img src="/images/user-info.png" class="img" >
+          </div>
+          <div class="col-xs-11 menutitle" onclick="SwitchMenu('sub3')">
+            吴立宗
+          </div>
+          <span class="submenu"id="sub3">Nam dui erat, auctor a, dignissim quis.</span>
+        </div>
+        <div>
+          <div class="col-xs-1">
+            <img src="/images/user-info.png" class="img" >
+          </div>
+          <div class="col-xs-11 menutitle" onclick="SwitchMenu('sub4')">
+            戴礼云
+          </div>
+          <span class="submenu" id="sub4">Nam dui erat, auctor a, dignissim quis.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <hr>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-offset-3 col-xs-7">
+      <div class="foot">
+        <img src="/images/snowman.png">
+      </div>
+      <div class="foot">
+        <div class="foot-a">
+          <span class="span">©中国科学院寒区旱区环境与工程研究所遥感室2016-2017</span>
+        </div>
+        <div class="foot-a">
+          <span class="span"><i class="glyphicon glyphicon-envelope"></i>联系我们</span>
+          <span class="span">|邮箱|</span> <a class="" href="mailto:chetao@lzb.ac.cn">chetao@lzb.ac.cn</a>
+          <span class="span">|</span><a class="" href="mailto:haoxh@lzb.ac.cn">haoxh@lzb.ac.cn</a>
+          <span class="span">|</span><a class="" href="mailto:yaochao94@126.com">yaochao94@126.com</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="/javascripts/jquery-ui.min.js"></script>
+<script>
+  $( "#accordion" ).accordion();
+</script>
+</body>
+</html>

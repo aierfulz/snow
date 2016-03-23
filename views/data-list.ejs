@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>|数据列表</title>
+  <link href="/stylesheets/bootstrap.min.css" rel="stylesheet">
+  <link href="/stylesheets/data/data-list.css" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="/images/theam.png" media="screen" />
+  <script type="text/javascript" src="/javascripts/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="/javascripts/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-5">
+      <img class="img-nav" src="/images/logo.png">
+    </div>
+    <div class="col-xs-7">
+      <div class="nav-bar">
+        <ul class="nav nav-pills nav-list">
+          <li role="presentation" class="active-data"><a href="index">首页</a></li>
+          <li role="presentation" class="active-data"><a href="news">新闻</a></li>
+          <li role="presentation" class="active data active-data"><a href="data">数据</a></li>
+          <li role="presentation" class="active-data"><a href="snow">积雪观测</a></li>
+          <li role="presentation" class="active-data"><a href="picture">相册</a></li>
+          <li role="presentation" class="active-data"><a href="about-ours">关于我们</a></li>
+        </ul>
+      </div>
+      <div class="con-login">
+        <button type="button" class="btn btn-default" aria-label="Left Align">
+          <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+          <a class="a-login" href="login">登录</a>
+        </button>
+        <button  type="button" class="btn btn-default" aria-label="Left Align">
+          <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+          <a class="a-login" href="register">注册</a>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="/images/2.jpg" alt="...">
+            <div class="carousel-caption">
+
+            </div>
+          </div>
+          <div class="item">
+            <img src="/images/1.jpg" alt="...">
+            <div class="carousel-caption">
+
+            </div>
+          </div>
+          <div class="item">
+            <img src="/images/3.jpg" alt="...">
+            <div class="carousel-caption">
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <hr>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <button class="btn btn-warning"><span class="btn-span glyphicon glyphicon-leaf"></span> 数据列表</button>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <hr>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="btn-toolbar" role="toolbar" aria-label="...">
+        <div class="btn-group" role="group" aria-label="...">
+          <button class="btn btn-default">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </button>
+          <button class="btn btn-default">1</button>
+          <button class="btn btn-default">2</button>
+          <button class="btn btn-default">3</button>
+          <button class="btn btn-default">4</button>
+          <button class="btn btn-default">5</button>
+          <button class="btn btn-default">6</button>
+          <button class="btn btn-default">..</button>
+          <button class="btn btn-default">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </button>
+          <input class="form-control form-input">
+          <span class="label label-warning">共有<i>402</i>条数据</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <hr>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 border">
+
+      <div class="col-xs-3">
+        <div class="list">
+          <img class="list-img img-rounded" src="/images/news-3.jpg">
+        </div>
+      </div>
+      <div class="col-xs-9">
+        <div class="col-xs-tag">
+          <span class="glyphicon glyphicon-record"></span>
+        </div>
+        <div class="col-xs-tag">
+                     <span class="col-xs-font">
+                         <a class="list-span-font" href="data-download">20071207A区雪属性调查实录</a>
+                     </span>
+        </div>
+        <div  class="list-p">
+          <p class="font-p">本数据为青海三江源区玉树县社会经济补充调查数据，以excle格式表达。 数据主要内容包括，基本情况统计表：各乡镇土地面积、行政村数、户数、人口、劳动力； 草食动物数量统计表：各乡镇大牲畜（牦牛、黄牛、马、驴、骆驼、骡）、小牲畜（藏羊、改良羊、山羊）和其他牲畜数量。 草原建设统计表：各乡镇草场围栏，人工种草、草场施肥、草场补播、鼠虫害防治、毒杂草灭除和人畜饮水工程情况。 畜牧业生产效益、畜产品产量统计、农牧业产值、经济收入及费用、禁牧、减畜情况统计表。</p>
+          <div class="col-xs-offset-7 col-xs-5">
+            <span class="label label-success mar">浏览次数<i>123</i></span>
+            <span class="mar-span mar">上传日期:</span>
+            <span class="mar-span">[2016-01-29]</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12">
+        <hr>
+      </div>
+
+      <div class="col-xs-3">
+        <div class="list">
+          <img class="list-img img-rounded" src="/images/news-3.jpg">
+        </div>
+      </div>
+      <div class="col-xs-9">
+        <div class="col-xs-tag">
+          <span class="glyphicon glyphicon-record"></span>
+        </div>
+        <div class="col-xs-tag">
+                     <span class="col-xs-font">
+                         <a class="list-span-font" href="">20071207A区雪属性调查实录</a>
+                     </span>
+        </div>
+        <div  class="list-p">
+          <p class="font-p">本数据为青海三江源区玉树县社会经济补充调查数据，以excle格式表达。 数据主要内容包括，基本情况统计表：各乡镇土地面积、行政村数、户数、人口、劳动力； 草食动物数量统计表：各乡镇大牲畜（牦牛、黄牛、马、驴、骆驼、骡）、小牲畜（藏羊、改良羊、山羊）和其他牲畜数量。 草原建设统计表：各乡镇草场围栏，人工种草、草场施肥、草场补播、鼠虫害防治、毒杂草灭除和人畜饮水工程情况。 畜牧业生产效益、畜产品产量统计、农牧业产值、经济收入及费用、禁牧、减畜情况统计表。</p>
+          <div class="col-xs-offset-7 col-xs-5">
+            <span class="label label-success mar">浏览次数<i>123</i></span>
+            <span class="mar-span mar">上传日期:</span>
+            <span class="mar-span">[2016-01-29]</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12">
+        <hr>
+      </div>
+
+      <div class="col-xs-3">
+        <div class="list">
+          <img class="list-img img-rounded" src="/images/news-3.jpg">
+        </div>
+      </div>
+      <div class="col-xs-9">
+        <div class="col-xs-tag">
+          <span class="glyphicon glyphicon-record"></span>
+        </div>
+        <div class="col-xs-tag">
+                     <span class="col-xs-font">
+                         <a class="list-span-font" href="">20071207A区雪属性调查实录</a>
+                     </span>
+        </div>
+        <div  class="list-p">
+          <p class="font-p">本数据为青海三江源区玉树县社会经济补充调查数据，以excle格式表达。 数据主要内容包括，基本情况统计表：各乡镇土地面积、行政村数、户数、人口、劳动力； 草食动物数量统计表：各乡镇大牲畜（牦牛、黄牛、马、驴、骆驼、骡）、小牲畜（藏羊、改良羊、山羊）和其他牲畜数量。 草原建设统计表：各乡镇草场围栏，人工种草、草场施肥、草场补播、鼠虫害防治、毒杂草灭除和人畜饮水工程情况。 畜牧业生产效益、畜产品产量统计、农牧业产值、经济收入及费用、禁牧、减畜情况统计表。</p>
+          <div class="col-xs-offset-7 col-xs-5">
+            <span class="label label-success mar">浏览次数<i>123</i></span>
+            <span class="mar-span mar">上传日期:</span>
+            <span class="mar-span">[2016-01-29]</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12">
+        <hr>
+      </div>
+
+      <div class="col-xs-3">
+        <div class="list">
+          <img class="list-img img-rounded" src="/images/news-3.jpg">
+        </div>
+      </div>
+      <div class="col-xs-9">
+        <div class="col-xs-tag">
+          <span class="glyphicon glyphicon-record"></span>
+        </div>
+        <div class="col-xs-tag">
+                     <span class="col-xs-font">
+                         <a class="list-span-font" href="">20071207A区雪属性调查实录</a>
+                     </span>
+        </div>
+        <div  class="list-p">
+          <p class="font-p">本数据为青海三江源区玉树县社会经济补充调查数据，以excle格式表达。 数据主要内容包括，基本情况统计表：各乡镇土地面积、行政村数、户数、人口、劳动力； 草食动物数量统计表：各乡镇大牲畜（牦牛、黄牛、马、驴、骆驼、骡）、小牲畜（藏羊、改良羊、山羊）和其他牲畜数量。 草原建设统计表：各乡镇草场围栏，人工种草、草场施肥、草场补播、鼠虫害防治、毒杂草灭除和人畜饮水工程情况。 畜牧业生产效益、畜产品产量统计、农牧业产值、经济收入及费用、禁牧、减畜情况统计表。</p>
+          <div class="col-xs-offset-7 col-xs-5">
+            <span class="label label-success mar">浏览次数<i>123</i></span>
+            <span class="mar-span mar">上传日期:</span>
+            <span class="mar-span">[2016-01-29]</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12">
+        <hr>
+      </div>
+
+      <div class="col-xs-3">
+        <div class="list">
+          <img class="list-img img-rounded" src="/images/news-3.jpg">
+        </div>
+      </div>
+      <div class="col-xs-9">
+        <div class="col-xs-tag">
+          <span class="glyphicon glyphicon-record"></span>
+        </div>
+        <div class="col-xs-tag">
+                     <span class="col-xs-font">
+                         <a class="list-span-font" href="">20071207A区雪属性调查实录</a>
+                     </span>
+        </div>
+        <div  class="list-p">
+          <p class="font-p">本数据为青海三江源区玉树县社会经济补充调查数据，以excle格式表达。 数据主要内容包括，基本情况统计表：各乡镇土地面积、行政村数、户数、人口、劳动力； 草食动物数量统计表：各乡镇大牲畜（牦牛、黄牛、马、驴、骆驼、骡）、小牲畜（藏羊、改良羊、山羊）和其他牲畜数量。 草原建设统计表：各乡镇草场围栏，人工种草、草场施肥、草场补播、鼠虫害防治、毒杂草灭除和人畜饮水工程情况。 畜牧业生产效益、畜产品产量统计、农牧业产值、经济收入及费用、禁牧、减畜情况统计表。</p>
+          <div class="col-xs-offset-7 col-xs-5">
+            <span class="label label-success mar">浏览次数<i>123</i></span>
+            <span class="mar-span mar">上传日期:</span>
+            <span class="mar-span">[2016-01-29]</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12">
+        <hr>
+      </div>
+      <div class="col-xs-3">
+        <div class="list">
+          <img class="list-img img-rounded" src="/images/news-3.jpg">
+        </div>
+      </div>
+      <div class="col-xs-9">
+        <div class="col-xs-tag">
+          <span class="glyphicon glyphicon-record"></span>
+        </div>
+        <div class="col-xs-tag">
+                     <span class="col-xs-font">
+                         <a class="list-span-font" href="">20071207A区雪属性调查实录</a>
+                     </span>
+        </div>
+        <div  class="list-p">
+          <p class="font-p">本数据为青海三江源区玉树县社会经济补充调查数据，以excle格式表达。 数据主要内容包括，基本情况统计表：各乡镇土地面积、行政村数、户数、人口、劳动力； 草食动物数量统计表：各乡镇大牲畜（牦牛、黄牛、马、驴、骆驼、骡）、小牲畜（藏羊、改良羊、山羊）和其他牲畜数量。 草原建设统计表：各乡镇草场围栏，人工种草、草场施肥、草场补播、鼠虫害防治、毒杂草灭除和人畜饮水工程情况。 畜牧业生产效益、畜产品产量统计、农牧业产值、经济收入及费用、禁牧、减畜情况统计表。</p>
+          <div class="col-xs-offset-7 col-xs-5">
+            <span class="label label-success mar">浏览次数<i>123</i></span>
+            <span class="mar-span mar">上传日期:</span>
+            <span class="mar-span">[2016-01-29]</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12">
+        <hr>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="btn-toolbar btn-toolbar-list" role="toolbar" aria-label="...">
+        <div class="btn-group" role="group" aria-label="...">
+          <button class="btn btn-default">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </button>
+          <button class="btn btn-default">1</button>
+          <button class="btn btn-default">2</button>
+          <button class="btn btn-default">3</button>
+          <button class="btn btn-default">4</button>
+          <button class="btn btn-default">5</button>
+          <button class="btn btn-default">6</button>
+          <button class="btn btn-default">..</button>
+          <button class="btn btn-default">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <hr>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-offset-3 col-xs-7">
+      <div class="foot">
+        <img src="/images/snowman.png">
+      </div>
+      <div class="foot">
+        <div class="foot-a">
+          <span class="span">©中国科学院寒区旱区环境与工程研究所遥感室2016-2017</span>
+        </div>
+        <div class="foot-a">
+          <span class="span"><i class="glyphicon glyphicon-envelope"></i>联系我们</span>
+          <span class="span">|邮箱|</span> <a class="" href="mailto:chetao@lzb.ac.cn">chetao@lzb.ac.cn</a>
+          <span class="span">|</span><a class="" href="mailto:haoxh@lzb.ac.cn">haoxh@lzb.ac.cn</a>
+          <span class="span">|</span><a class="" href="mailto:yaochao94@126.com">yaochao94@126.com</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

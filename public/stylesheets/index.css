@@ -1,0 +1,122 @@
+
+.container{
+    width: 1200px;
+}
+body{
+    margin-top: 6px;
+}
+.nav-bar{
+    margin-top: 32px;
+    float: left;
+}
+.login{
+    float:right;
+}
+.nav-pills>li{
+    margin-right: 4px;
+}
+.con-login{
+    margin-top:38px;
+    margin-left:12px;
+}
+.user,.glyphicon-user,.glyphicon-pencil{
+    color:#337ab7;
+    display: inline-block;
+    margin-right: 6px;
+}
+.a-style{
+    margin-top: 3px;
+    overflow: hidden;
+}
+.active-data{
+    font-family: YouYuan;
+    font-weight: 600;
+    font-size: 16px;
+}
+#carousel-example-generic{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    height:300px
+}
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img{
+    width: 100%;
+    height: 320px;
+}
+
+.a-login{
+    font-family: YouYuan;
+    font-weight: 600;
+}
+
+.news{
+    width: 390px;
+    height: 280px;
+    margin-top: 20px;
+}
+
+.new-tag{
+    font-size: 20px;
+    font-family:微软雅黑;
+    font-weight: 500;
+    font-style: normal;
+    color: #337ab7;
+}
+
+.glyphicon-book{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 4px;
+}
+
+.new-tag-mar{
+    margin: 12px 12px;
+}
+.border{
+    border-color: #EEEEEE;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 12px;
+}
+.new-data{
+    width: 700px;
+    height: 280px;
+    float: right;
+    margin-top: 20px;
+}
+
+.new-a{
+    margin: 8px 30px;
+}
+
+.more{
+    margin-top: 8px;
+    float: right;
+}
+.net-link{
+    margin-left: 30px;
+}
+.x-data{
+    width:360px;
+    height: 280px;
+    margin-top: 12px;
+}
+.data-page-time{
+    margin-left: 24px;
+    color:#337ab7;
+}
+.logo_img{
+    width: 26px;
+    height: 24px;
+    margin-right: 6px;
+}
+
+.foot-a{
+    margin: 12px 6px;
+}
+.foot{
+    display: inline-block;
+    float: left;
+}
+.span{
+    color:#337ab7;
+}
