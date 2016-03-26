@@ -1,6 +1,7 @@
 var express = require('express');
 var User=require('../models/user');
 var news=require('../models/news');
+var dataModel=require('../models/data')
 var passport = require('passport');
 var router = express.Router();
 
@@ -81,6 +82,15 @@ router.get('/data-list',function(req,res,next){
 });
 router.get('/data-download',function(req,res,next){
   res.render('data-download',{title: 'Express'});
+});
+
+router.get('/data-download/:id',function(req,res,next){
+  var i=req.param('id'),
+      q=parseInt(i.substr(i.length-1, i.length));
+  dataModel.find({name:i.substr(0, i.length-1)},function(err,data){
+    if(q==1){ res.download(data[0].metaPath,data[0].metaName);}
+    else{res.download(data[0].dataPath,data[0].dataName);}
+  });
 });
 
 router.get('/yard',function(req,res,next){
